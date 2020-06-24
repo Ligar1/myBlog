@@ -2,4 +2,13 @@
 <h1>HOME PAGE
 </h1>
 
+<%if(currentUser){ %>
+    <a href="/ligar/user/logout">Log Out</a>
+<% }else{ %>
+    <a href="/ligar/user/signup">Sign Up</a>
+    <a href="/ligar/user/login">Log In</a>
+<% }%>
+
+
+
 <%- include("partials/footer") %>

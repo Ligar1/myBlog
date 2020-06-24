@@ -1,142 +1,58 @@
 body{
   box-sizing: border-box;
-}
-#signup_form{
-    width: 450px;
-    margin-top: 100px;
+  width: 0 auto;
 }
 
-#brandName{
-    font-weight: 800;  
-}
+     .navbar .navbar-brand img {
+      height: 20px;
+    }
 
-.cred{
-    font-weight: 500;
-}
+    .navbar .navbar-brand {
+      padding-top: 0;
+    }
 
-#navigation{
-    margin-bottom: 0 !important;
-}
+    .navbar .nav-link {
+      color: #444343!important;
+    }
 
-.head_img_subtext{
-    font-size: 1.2em;
-    font-weight: 500;
-}
+    .navbar .button-collapse {
+      padding-top: 1px;
+    }
 
-.head_img_button{
-    font-size: 1em !important;
-    font-weight: 600 !important;
-}
+    .card-intro .card-body {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      border-radius: 0 !important;
+    }
 
-#afrilancer{
-    font-weight: 900;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+    .card-intro .card-body h1 {
+      margin-bottom: 0;
+    }
 
-#project-btn{
-    font-weight: 700;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.7em;
-    padding: 5px !important;
-    text-transform: capitalize !important;
-}
+    .card-intro {
+      margin-top: 64px;
+    }
 
-#footer{
-  margin-top: 100px !important;
-}
+    @media (max-width: 450px) {
+      .card-intro {
+        margin-top: 56px;
+      }
+    }
 
-.side-bar{
-  height: 100%;
-}
+    @media (min-width: 1441px) {
+      .card-intro {
+        padding-left: 0 !important;
+      }
+    }
 
-.fa-play:before {
-    margin-left: .3rem;
-  }
+    #my-brand{
+      margin-left: 6px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 700;
+      font-size: 1.3em;
+    }
 
-  /* Steps */
-  .step {
-    list-style: none;
-    margin: 0;
-  }
-
-  .step-element {
-    display: flex;
-    padding: 1rem 0;
-  }
-
-  .step-number {
-    position: relative;
-    width: 7rem;
-    flex-shrink: 0;
-    text-align: center;
-  }
-
-  .step-number .number {
-    color: #d1d1d1;
-    background-color: #358fe9;
-    font-size: 1.5rem;
-  }
-
-  .step-number .number {
-    width: 48px;
-    height: 48px;
-    line-height: 48px;
-  }
-
-  .number {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 38px;
-    border-radius: 10rem;
-  }
-
-  .step-number::before {
-    content: '';
-    position: absolute;
-    left: 50%;
-    top: 48px;
-    bottom: -2rem;
-    margin-left: -1px;
-    border-left: 2px dashed #eaeff4;
-  }
-
-  .step .step-element:last-child .step-number::before {
-    bottom: 1rem;
-  }
-
-  #call-to-action-header{
-      margin-bottom: 20px;
-      border-bottom: 1px solid rgb(182, 182, 182);
-      width: 400px;
-      padding-bottom: 10px;
-      color: rgb(110, 110, 110);
-  }
-
-        .link-black a {
-          color: black;
-        }
-
-        .link-black a:hover {
-          color: #0056b3;
-        }
-
-        .link-black .active {
-          color: #0056b3;
-        }
-
-        .divider-small {
-          width: 30px;
-          background-color: rgba(0, 0, 0, .1);
-          height: 3px;
-        }
-
-        
-         /* mongodb+srv://rashad:simmsco7@cluster0-qtoxw.mongodb.net/afrilancer?retryWrites=true&w=majority 
-        
-        mongoose.connect(process.env.DATABASEURL,{
-                 useNewUrlParser: true,
-                 useUnifiedTopology: true
-             }) */
-      
-             /* mongoose.connect("mongodb://localhost/AFRILANCER") */
+    .fa-grin-tongue{
+      font-weight: 900 !important;
+      font-size: 1.7em;
+    }
